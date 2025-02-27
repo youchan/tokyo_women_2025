@@ -1,6 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    js (2.7.1)
+    markly (0.12.1)
     ruby_wasm (2.7.1)
     ruby_wasm (2.7.1-arm64-darwin)
 
@@ -9,6 +11,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  js
+  markly (~> 0.12.1)
   ruby_wasm (~> 2.7)
 
 BUNDLED WITH
